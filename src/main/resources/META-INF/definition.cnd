@@ -1,0 +1,11 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+[jmix:Test] > jmix:basicContent, mix:title mixin
+ - jcr:title (string)
+ - Name (string)
+
+[jnt:javaExample] > jnt:content, jmix:basicContent, mix:title
+ - jcr:title (string) scoreboost=2.0
+
